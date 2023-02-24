@@ -46,14 +46,14 @@ void OpenGLWidget::resizeGL(int width, int height) {
 
 void OpenGLWidget::paintGL() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    this->draw();
+    this->drawPrimitive();
 }
 
 void OpenGLWidget::setPrimitiveType(const QString &type) {
     this->primitive = primitivesList.find(type)->second;
 }
 
-void OpenGLWidget::draw() {
+void OpenGLWidget::drawPrimitive() {
     glLineWidth(5);
     glPointSize(5);
 
