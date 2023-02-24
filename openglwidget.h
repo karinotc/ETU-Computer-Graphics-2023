@@ -22,7 +22,7 @@ protected:
     void resizeGL(int width, int height);
     void paintGL();
 private:
-    void draw();
+    void drawPrimitive();
     void setPoints();
 signals:
 
