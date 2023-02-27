@@ -20,6 +20,18 @@ public:
 private slots:
     void on_primitiveBox_currentTextChanged(const QString &arg1);
 
+    void on_xScissorSlider_valueChanged(int value);
+
+    void on_yScissorSlider_valueChanged(int value);
+
+    void on_alphaSlider_valueChanged(int value);
+
+    void on_alphaBox_currentTextChanged(const QString &arg1);
+
+    void on_sfactorBox_currentTextChanged(const QString &arg1);
+
+    void on_dfactorBox_currentTextChanged(const QString &arg1);
+
 private:
     Ui::MainWindow *ui;
 };
