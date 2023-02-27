@@ -40,6 +40,124 @@
          <widget class="QComboBox" name="primitiveBox"/>
         </item>
         <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Тест отсечения</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="xScissorSlider">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="xScissorLabel">
+          <property name="text">
+           <string>0 px</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="yScissorSlider">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="yScissorLabel">
+          <property name="text">
+           <string>0 px</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Тест прозрачности</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="alphaBox"/>
+        </item>
+        <item>
+         <widget class="QSlider" name="alphaSlider">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="alphaLabel">
+          <property name="text">
+           <string>0.0</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Тест смешивания цветов</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>sfactor</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="sfactorBox"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>dfactor</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="dfactorBox"/>
+        </item>
+        <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
            <enum>Qt::Vertical</enum>

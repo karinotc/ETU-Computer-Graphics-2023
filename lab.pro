@@ -17,6 +17,8 @@ SOURCES += \
 
 HEADERS += \
     mainwindow.h \
+    openglaphamode.h \
+    openglblendmode.h \
     openglprimitives.h \
     openglwidget.h
 

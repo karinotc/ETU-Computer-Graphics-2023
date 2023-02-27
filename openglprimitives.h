@@ -2,32 +2,20 @@
 #define OPENGLPRIMITIVES_H
 
 #include<QString>
+#include <QtOpenGL>
 #include<unordered_map>
 
-enum class OpenGLPrimitive {
-    POINTS,
-    LINES,
-    LINE_STRIPS,
-    LINE_LOOP,
-    TRIANGLES,
-    TRIANGLE_STRIP,
-    TRIANGLE_FAN,
-    QUADS,
-    QUAD_STRIP,
-    POLYGON
-};
-
-const std::unordered_map<QString, OpenGLPrimitive> primitivesList = {
-    {"GL_POLYGON", OpenGLPrimitive::POLYGON},
-    {"GL_QUAD_STRIP", OpenGLPrimitive::QUAD_STRIP},
-    {"GL_QUADS", OpenGLPrimitive::QUADS},
-    {"GL_TRIANGLE_FAN", OpenGLPrimitive::TRIANGLE_FAN},
-    {"GL_TRIANGLE_STRIP", OpenGLPrimitive::TRIANGLE_STRIP},
-    {"GL_TRIANGLES", OpenGLPrimitive::TRIANGLES},
-    {"GL_LINE_LOOP", OpenGLPrimitive::LINE_LOOP},
-    {"GL_LINE_STRIPS", OpenGLPrimitive::LINE_STRIPS},
-    {"GL_LINES", OpenGLPrimitive::LINES},
-    {"GL_POINTS", OpenGLPrimitive::POINTS}
+const std::unordered_map<QString, unsigned int> primitivesList = {
+    {"GL_POLYGON", GL_POLYGON},
+    {"GL_QUAD_STRIP", GL_QUAD_STRIP},
+    {"GL_QUADS", GL_QUADS},
+    {"GL_TRIANGLE_FAN", GL_TRIANGLE_FAN},
+    {"GL_TRIANGLE_STRIP", GL_TRIANGLE_STRIP},
+    {"GL_TRIANGLES", GL_TRIANGLES},
+    {"GL_LINE_LOOP", GL_LINE_LOOP},
+    {"GL_LINE_STRIPS", GL_LINE_STRIP},
+    {"GL_LINES", GL_LINES},
+    {"GL_POINTS", GL_POINTS}
 };
 
 #endif // OPENGLPRIMITIVES_H
